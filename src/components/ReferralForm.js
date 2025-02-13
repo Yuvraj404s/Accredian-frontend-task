@@ -49,14 +49,14 @@ const ReferralForm = ({ onClose, onSuccess }) => {
                   type="text" 
                   placeholder="Friend's Name" 
                   className="w-full px-4 py-2 border rounded-lg mt-3" 
-                  onChange={(e) => setReferrerName(e.target.value)} 
+                  onChange={(e) => setRefereeName(e.target.value)} 
                   required 
                 />
                 <input 
                   type="email" 
                   placeholder="Friend's Email" 
                   className="w-full px-4 py-2 border rounded-lg mt-3" 
-                  onChange={(e) => setReferrerEmail(e.target.value)} 
+                  onChange={(e) => setRefereeEmail(e.target.value)} 
                   required 
                 />
                 <input 
@@ -65,7 +65,7 @@ const ReferralForm = ({ onClose, onSuccess }) => {
                   maxLength="10"
                   pattern="[0-9]{10}"
                   className="w-full px-4 py-2 border rounded-lg mt-3" 
-                  onChange={(e) => setReferrerPhone(e.target.value)} 
+                  onChange={(e) => setRefereePhone(e.target.value)} 
                   required 
                 />
               </div>
@@ -75,14 +75,14 @@ const ReferralForm = ({ onClose, onSuccess }) => {
                   type="text" 
                   placeholder="Your Name" 
                   className="w-full px-4 py-2 border rounded-lg mt-3" 
-                  onChange={(e) => setRefereeName(e.target.value)} 
+                  onChange={(e) => setReferrerName(e.target.value)} 
                   required 
                 />
                 <input 
                   type="email" 
                   placeholder="Your Email" 
                   className="w-full px-4 py-2 border rounded-lg mt-3" 
-                  onChange={(e) => setRefereeEmail(e.target.value)} 
+                  onChange={(e) => setReferrerEmail(e.target.value)} 
                   required 
                 />
                 <input 
@@ -91,7 +91,7 @@ const ReferralForm = ({ onClose, onSuccess }) => {
                   maxLength="10"
                   pattern="[0-9]{10}"
                   className="w-full px-4 py-2 border rounded-lg mt-3" 
-                  onChange={(e) => setRefereePhone(e.target.value)} 
+                  onChange={(e) => setReferrerPhone(e.target.value)} 
                   required 
                 />
               </div>
