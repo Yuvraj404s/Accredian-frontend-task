@@ -13,7 +13,7 @@ const ReferralForm = ({ onClose, onSuccess }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("https://accredian-backend-task-mtd6.onrender.com/api/referral/submit", {
+    const response = await fetch("https://accredian-backend-task-oa4m.onrender.com/api/referral/submit", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ referrerName, referrerEmail, referrerPhone, refereeName, refereeEmail, refereePhone, course }),
